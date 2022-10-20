@@ -34,3 +34,17 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 45px;
+    
+}
+
+.plant {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}

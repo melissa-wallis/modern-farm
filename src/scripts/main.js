@@ -48,11 +48,9 @@ const finalCatalog = Catalog(harvestedPlants)
 console.log(finalCatalog)
 
 //identifies parent element in HTML
-const parentHTMLElement = document.querySelector(".container")
+//const parentHTMLElement =//
+ document.querySelector(".container").innerHTML += finalCatalog
 
-const applicationHTML = `<div>${finalCatalog}</div>`
-
-parentHTMLElement.innerHTML = applicationHTML
 
 
 
